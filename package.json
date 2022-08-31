@@ -2,9 +2,9 @@
   "name": "risk-management",
   "version": "1.0.0",
   "description": "Template for the the SAP Extension Suite Learning Journey",
-  "author": "m.haug@sap.com",
-  "license": "SAP SAMPLE CODE LICENSE",
-  "repository": "https://github.com/SAP-samples/sap-learning-extension-suite",
+  "author": "joachim.a.uppenberg@capgemini.com",
+  "license": "SAP SAMPLE CODE LICENSE ",
+  "repository": "https://github.com/JUPPNEU/RiskManagement.git",
   "engines": {
     "node": ">=16",
     "npm": "==8.18.0"
