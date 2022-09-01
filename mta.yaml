@@ -35,8 +35,8 @@ modules:
     path: gen/db
     parameters:
       buildpack: nodejs_buildpack
-    build-parameters:
-      ignore: ["default-env.json", ".env" ]
+      ignore: ["default-env.json", ".env", "node_modules/", "package-lock.json" ]
+      builder: custom
     requires:
       - name: risk-management-db
       - name: risk-management-xsuaa
