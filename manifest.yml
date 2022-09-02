@@ -27,6 +27,7 @@ applications:
   memory: 1024M
   instances: 1
   buildpack: nodejs_buildpack
+  ignore: ["default-env.json", ".env", "node_modules/", "package-lock.json" ]
   services:
   - risk-management-db
   - risk-management-xsuaa
