@@ -1,6 +1,10 @@
 {
     "name": "risks",
     "version": "0.0.1",
+    "engines": {
+        "node": ">=16",
+        "npm": "==8.18.0"
+    },
     "description": "Risk Management",
     "keywords": [
         "ui5",
