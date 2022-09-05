@@ -6,11 +6,12 @@ description: "Template for the the SAP Extension Suite Learning Journey"
 parameters:
   enable-parallel-deployments: true
 build-parameters:
-   
   before-all:
-    - builder: custom
-      commands:
-         - npx -p @sap/cds-dk cds build --production
+   - builder: custom
+     commands:
+      - npm install --production
+      - npx -p @sap/cds-dk cds build --production
+
 modules:
   - name: risk-management-srv
     type: nodejs
